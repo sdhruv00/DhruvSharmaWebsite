@@ -1,0 +1,142 @@
+body {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+    margin-top: 50px;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    line-height: 50px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: white;
+
+}
+
+.name {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-style: bold;
+    font-size: 20px;
+    align-self: auto;
+}
+
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 80px;
+	display: inline-block;
+	margin: 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.btn-1e {
+	overflow: hidden;
+}
+
+.btn-1e:after {
+	width: 100%;
+	height: 0;
+	top: 50%;
+	left: 50%;
+	background: #fff;
+	opacity: 0;
+	-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	-moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	-ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.btn-1e:hover,
+.btn-1e:active {
+	color: #0e83cd;
+}
+
+.btn-1e:hover:after {
+	height: 260%;
+	opacity: 1;
+}
+
+.btn-1e:active:after {
+	height: 400%;
+	opacity: 1;
+}
+
+#yer .profile-pic {
+    border-radius: 50%;
+}
+
+
+/*header li {
+    outline: whitesmoke;
+} */
+/*header ul {
+    padding: 0;
+    
+}
+
+header li {
+    margin-left: 20px;
+    
+}
+
+header ul li {
+    transition: white 0.2s;
+    padding: 50px;
+}
+
+header ul li :hover {
+    background-color: violet;
+} */
+
+header *{
+    display: inline;
+    height: 50px;
+    outline: whitesmoke;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid white ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+#about .profile-pic1 {
+    width: 300px;
+    border-radius: 50%;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+}  
+

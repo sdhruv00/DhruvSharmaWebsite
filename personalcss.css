@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-color: #1F2833;
+    background-image: url("maxresdefault.jpg");
     font-family: Arial, Helvetica, sans-serif; 
     margin: 0;
     margin-top: 50px;
@@ -13,13 +14,13 @@ header{
     right: 0;
     height: 65px;
     line-height: 50px;
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-color: #0B0C10;
     color: white;
 
 }
 
 .name {
-    color: black;
+    color: #66FCF1;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-style: bold;
@@ -64,7 +65,7 @@ header{
 	height: 0;
 	top: 50%;
 	left: 50%;
-	background: #fff;
+	background: #66FCF1;
 	opacity: 0;
 	-webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
 	-moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
@@ -114,10 +115,14 @@ header ul li :hover {
     background-color: violet;
 } */
 
+h1, h2, h3 {
+    color: #66FCF1;
+}
+
 header *{
     display: inline;
     height: 50px;
-    outline: whitesmoke;
+    outline: #66FCF1;
 }
 
 section {
@@ -128,6 +133,9 @@ section {
     text-align: center;
     justify-content: center;
     font-size: 17px;
+    color: #C5C6C7;
+    outline: #66FCF1;
+    border-color: #66FCF1;
 }
 
 #about .profile-pic1 {
@@ -136,7 +144,8 @@ section {
 }
 
 footer{
+    color: #66FCF1;
     text-align: center;
     padding: 50px;
-}  
 
+}  
